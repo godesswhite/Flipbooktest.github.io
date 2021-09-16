@@ -14,6 +14,18 @@ body {
     background-color: powderblue;
 }
 
+img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+video {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
 /* Book */
 .book {
     position: relative;
@@ -51,7 +63,7 @@ body {
 }
 
 .back {
-    z-index: 0;
+    z-index: 0; 
 }
 
 .front-content,
@@ -97,13 +109,17 @@ i {
 
 /* Paper stack order */
 #p1 {
-    z-index: 3;
+    z-index: 4;
 }
 
 #p2 {
-    z-index: 2;
+    z-index: 3;
 }
 
 #p3 {
+    z-index: 2;
+}
+
+#p4 {
     z-index: 1;
 }
